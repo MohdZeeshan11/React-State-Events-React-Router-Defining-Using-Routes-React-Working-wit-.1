@@ -11,8 +11,9 @@ export const NavBar = () => {
         <li class="home-link">
           <Link to="/home">Home</Link>
         </li>
-
-        {/* <Link to="/"></Link> */}
+        <li>
+          <Link to="/notFound">Not Found Component</Link>
+        </li>
       </ul>
     </nav>
   );
